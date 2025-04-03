@@ -44,7 +44,7 @@ def lire_pdfs(dossier):
     return texte_total
 
 # 📌 Charger les documents
-dossier_pdfs = "C:/Users/thiam/Desktop/senegal2050/"  # Remplace par ton dossier PDF
+dossier_pdfs = "C:/Users/thiam/Desktop/vision2050/"  # Remplace par ton dossier PDF
 documents = lire_pdfs(dossier_pdfs)
 texte_corpus = " ".join(documents)
 
